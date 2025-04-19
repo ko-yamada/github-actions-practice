@@ -14,4 +14,4 @@ jobs:
         with:
           apiToken: ${{ secrets.API_TOKEN }}
           roomId: ${{ secrets.ROOM_ID }}
-          message: Hello World!
+          message: テストメッセージ
