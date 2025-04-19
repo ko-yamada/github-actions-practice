@@ -1,0 +1,17 @@
+name: Send Chatwork Message
+
+on:
+  workflow_dispatch:
+    
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start Workflow Message
+        run: echo "Start Workflow"
+      - uses: okuzawats/chatwork-messaging-action@v1.0
+        with:
+          apiToken: ${{ secrets.API_TOKEN }}
+          roomId: ${{ secrets.ROOM_ID }}
+          message: Hello World!
