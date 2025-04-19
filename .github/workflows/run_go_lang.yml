@@ -1,4 +1,4 @@
-name: Hello World
+name: Running Go Code
 
 on:
     workflow_dispatch:
