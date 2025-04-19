@@ -1,0 +1,15 @@
+name: on_tags_push
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+      - 'test-*'
+      - 'release-*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "This is a tag push event."
+      - run: echo "Tag name:${{ github.ref_name }}"
