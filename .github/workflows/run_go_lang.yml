@@ -9,7 +9,7 @@ on:
         - 'sample_code/**.go'
 
 jobs:
-  build:
+  run_go_code:
 
     runs-on: ubuntu-latest
 

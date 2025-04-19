@@ -9,7 +9,7 @@ on:
       - on_tag_push-[0-9]+.[0-9]+.[0-9]+
 
 jobs:
-  build:
+  on_tag_push:
     runs-on: ubuntu-latest
     steps:
       - run: echo "This is a tag push event."
