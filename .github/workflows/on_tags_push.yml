@@ -1,4 +1,4 @@
-name: on_tags_push
+name: on_tag_push
 
 on:
   push:
@@ -6,6 +6,7 @@ on:
       - 'v*.*.*'
       - 'test-*'
       - 'release-*'
+      - "on_tag_push-[0-9]+.[0-9]+.[0-9]+"
 
 jobs:
   build:
