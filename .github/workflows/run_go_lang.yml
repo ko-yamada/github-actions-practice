@@ -6,13 +6,13 @@ on:
       branches:
         - main
       paths:
-        - '/sample_code/**.go'
+        - 'sample_code/**.go'
 
 jobs:
   build:
 
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Start Workflow Message
         run: echo "Start Workflow"
