@@ -1,0 +1,8 @@
+name: reusable_work_flow
+
+on:
+    workflow_dispatch:
+
+jobs:
+  call-run-go-lang:
+    uses: ko-yamada/github-actions-practice/.github/workflows/run_go_lang.yml@main
