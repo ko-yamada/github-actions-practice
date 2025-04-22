@@ -12,6 +12,6 @@ jobs:
         run: echo "Start Workflow"
       - uses: okuzawats/chatwork-messaging-action@v1.0
         with:
-          apiToken: ${{ secrets.API_TOKEN }}
+          apiToken: ${{ secrets.CHATWORK_API_TOKEN }}
           roomId: ${{ secrets.ROOM_ID }}
           message: テストメッセージ
