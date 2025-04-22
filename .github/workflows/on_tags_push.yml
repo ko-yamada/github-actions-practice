@@ -1,4 +1,4 @@
-name: on_tag_push
+name: Run on Tag Push
 
 on:
   push:

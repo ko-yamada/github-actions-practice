@@ -1,4 +1,4 @@
-name: reusable_work_flow
+name: Run Reusable Workflow
 
 on:
     workflow_dispatch:

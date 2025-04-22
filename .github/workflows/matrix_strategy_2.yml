@@ -1,4 +1,4 @@
-name: Matrix Strategy 2
+name: Run Matrix Strategy 2
 
 on:
     workflow_dispatch:

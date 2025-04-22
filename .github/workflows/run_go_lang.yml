@@ -11,23 +11,17 @@ on:
 
 jobs:
   run_go_code:
-
     runs-on: ubuntu-latest
-
     steps:
       - name: Start Workflow Message
         run: echo "Start Workflow"
-      
       - name: Checkout Code
         uses: actions/checkout@v4
-
       - name: Set up Go
         uses: actions/setup-go@v4
         with:
           go-version: '1.22'
-          
       - name: run go
         run: go run sample_code/hello_world.go
-
       - name: End Workflow Message
         run: echo "End Workflow"
