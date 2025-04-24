@@ -7,7 +7,7 @@ on:
       branches:
         - main
       paths:
-        - 'sample_code/**.go'
+        - 'sample_code/hello_world.go'
 
 jobs:
   run_go_code:
