@@ -56,7 +56,7 @@ flowchart LR
 
 
 ## run_go_lang.yml
-- このワークフローは、手動もしくは`main`ブランチの`/sample_code/**.go`が`push`された際に実行されます。
+- このワークフローは、手動もしくは`main`ブランチの`sample_code/hello_world.go`が`push`された際に実行されます。
 - `run_go`ジョブが開始され、`go run`コマンドを使用してGoプログラムを実行します。
 
 
