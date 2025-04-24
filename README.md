@@ -1,6 +1,7 @@
 # github actions practice
 
-# workflow 概要
+# 概要
+このリポジトリは、GitHub Actionsのさまざまな機能を学ぶためのサンプルコードを含んでいます。以下に、各ワークフローの概要を示します。
 
 ## hello-world.yml
 - このワークフローは、手動で実行します。
